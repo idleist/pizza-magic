@@ -1,0 +1,170 @@
+body {
+    /* background-color: #E31B22; rgba(227, 27, 34, 0.8) */
+    background: #202020;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+  }
+  
+  /*Small Screens*/
+  :target{
+    padding-top: 65px;
+  }
+  h1 {
+    font-size: 3.5em;
+    color: #E31B22;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  
+  h4 {
+    font-size: 2em;
+  }
+  #aboutus p{
+    font-size: 1.2em;
+  }
+  
+  #openinghours{
+    text-align: center;
+    padding-top: 20px;
+  }
+  #openinghours h4, #openinghours p{
+    color: #E31B22;
+  }
+  
+  .menuimage{
+    display: none;
+  }
+  
+  #creditcards{
+    text-align: center;
+  }
+  
+  #creditcards img{
+    width: 130px;
+  }
+  .banner {
+    margin: 30px 0;
+  }
+  .bannerlogo{
+    display: none;
+  }
+  
+  .pizzaimg {
+    width: 100%;
+    
+  }
+  .bannertext > h1{
+    text-align: center;
+  }
+  
+  .phonenumber {
+    color: white;
+    text-align: center;
+  }
+  
+  .tagline {
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    color: yellow;
+  }
+  
+  .container {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 10px;
+            box-shadow: 5px 5px 10px;
+  }
+  
+  .menuitem {
+    font-weight: 700;
+  }
+  
+  
+  
+  .logoimg {
+    vertical-align: middle;
+    height: 55px;
+  }
+  
+  h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    background-color: rgba(227, 27, 34);
+  }
+  
+  .logo{
+    color: #E31B22;
+  }
+  
+  .navcontainer{
+    margin: 0 25px;
+  }
+  
+  footer{
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  /* start of desktop styles */
+  
+  @media screen  and (min-width: 900px) {
+    /* start of large tablet styles */
+    body{
+      background-image: url("images/PizzaMagicBackgroundTwo.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+      
+      
+    }
+    
+    /*experimental*/
+      nav ul li a .alink{
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+      }
+  
+      nav ul li a .alink:hover {
+        color: white;
+      }
+  
+      .menuheader{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 50% 50%;
+            grid-template-columns: 50% 50%;
+      }
+  
+      .menuimage{
+        display: -ms-grid;
+        display: grid;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+        -ms-flex-line-pack: center;
+            align-content: center;
+      }
+  
+      .menuimage img{
+        max-width: 300px;
+      }
+        
+  
+  
+      
+  
+  }
+  
+  
+  
+  
